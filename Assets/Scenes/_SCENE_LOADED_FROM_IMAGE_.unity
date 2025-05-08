@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7e3a1bac9704046921de317e4b4e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelFileName: Level-1-1.png
+  levelFileName: level-1-2.png
   colorToPrefab:
   - color:
       serializedVersion: 2
@@ -186,12 +186,16 @@ MonoBehaviour:
     prefab: {fileID: 103682, guid: 3e707ed2970f72f4fa722591811337ed, type: 3}
   - color:
       serializedVersion: 2
-      rgba: 0
-    prefab: {fileID: 0}
+      rgba: 16776960
+    prefab: {fileID: 8833553677630317808, guid: 4b48781ee170446cc97d8b187bc330e5, type: 3}
   - color:
       serializedVersion: 2
-      rgba: 0
-    prefab: {fileID: 0}
+      rgba: 16777215
+    prefab: {fileID: 2588305218918759919, guid: ecf5ac03583e64f90af447b3649a2b14, type: 3}
+  - color:
+      serializedVersion: 2
+      rgba: 16711935
+    prefab: {fileID: 4112239194643395384, guid: a7ba45d0a93514d45a71486c959cead3, type: 3}
 --- !u!1 &2069230238
 GameObject:
   m_ObjectHideFlags: 0
