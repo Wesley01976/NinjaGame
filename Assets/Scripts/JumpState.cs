@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class JumpState : PlayerBaseState
 {
-    private float jumpForce = 7.5f;
+    private float jumpForce = 5f;
     private float wallJumpHorizontalForce = 5f;
     private float enterTime;
     private bool hasJumped = false;
