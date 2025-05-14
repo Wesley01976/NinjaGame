@@ -144,6 +144,8 @@ public class PlayerStateMachine : MonoBehaviour
 
     private void Update()
     {
+        RB.linearVelocity = new Vector2(MoveSpeed, RB.linearVelocity.y);
+
         // Update coyote time timer
         if (jumpGroundedGraceTimer > 0f)
             jumpGroundedGraceTimer -= Time.deltaTime;

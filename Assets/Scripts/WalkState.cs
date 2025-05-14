@@ -76,7 +76,7 @@ public class WalkState : PlayerBaseState
 
         // Apply walk movement (only affect horizontal velocity)
         float targetVelocityX = moveInput.x * stateMachine.MoveSpeed * walkSpeedMultiplier;
-        stateMachine.RB.linearVelocity = new Vector2(targetVelocityX, stateMachine.RB.linearVelocity.y); // Preserve Y velocity
+        stateMachine.RB.linearVelocity = new Vector2(stateMachine.MoveSpeed * walkSpeedMultiplier, stateMachine.RB.linearVelocity.y); // Preserve Y velocity
 
         // Optionally update animation direction
         if (stateMachine.Animator != null)
